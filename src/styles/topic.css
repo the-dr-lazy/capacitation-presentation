@@ -1,0 +1,25 @@
+
+#topic-canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bespoke-slide[data-bespoke-hash="topic"] {
+  zoom: 1 !important;
+}
+
+.bespoke-slide.bespoke-before[data-bespoke-hash="topic"] {
+  transition-delay: 2.5s;
+}
+
+.bespoke-slide[data-bespoke-hash="intro"] {
+  transition-delay: 2.5s;
+}
+
+.bespoke-slide.bespoke-after[data-bespoke-hash="intro"] {
+  transition-delay: 0s;
+}
+
+.bespoke-slide.bespoke-before[data-bespoke-hash="intro"] {
+  transition-delay: .3s;
+}

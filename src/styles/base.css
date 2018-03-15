@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, .deck {
+  background-color: #F58F93;
+}
+
+a {
+  color: #FFD1B2;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Roboto;
+}
+
+.bespoke-slide {
+  text-shadow: 0 2px 4px rgba(34, 34, 34, .08);
+}
